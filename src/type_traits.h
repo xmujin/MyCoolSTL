@@ -41,6 +41,7 @@ namespace mycoolstl
 
     template<class T1, class T2>
     struct is_pair<pair<T1, T2>> : my_bool_true {};
+    //
 
 } // namespace mycoolstl
 
