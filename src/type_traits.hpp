@@ -1,5 +1,5 @@
 /**
- * @file type_traits.h
+ * @file type_traits.hpp
  * @author xiangbo
  * @brief 
  * @date 2024-10-07 09:10:69 
@@ -8,8 +8,8 @@
  * 
  */
 
-#ifndef MYCOOLSTL_TYPE_TRAITS_H
-#define MYCOOLSTL_TYPE_TRAITS_H
+#ifndef MYCOOLSTL_TYPE_TRAITS_HPP
+#define MYCOOLSTL_TYPE_TRAITS_HPP
 
 
 // 使用该标准库萃取类型
