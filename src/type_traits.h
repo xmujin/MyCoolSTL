@@ -1,3 +1,13 @@
+/**
+ * @file type_traits.h
+ * @author xiangbo
+ * @brief 
+ * @date 2024-10-07 09:10:69 
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
 #ifndef MYCOOLSTL_TYPE_TRAITS_H
 #define MYCOOLSTL_TYPE_TRAITS_H
 
@@ -36,12 +46,18 @@ namespace mycoolstl
     // forward declaration end
 
 
+    
+    /**
+     * @brief is_pair用于判断是否是正确的pair
+     * @date 2024-10-07 09:10:63 
+     */
     template<class T>
-    struct is_pair : my_bool_false {};
+    struct is_pair : mycoolstl::my_bool_false {};
 
     template<class T1, class T2>
-    struct is_pair<pair<T1, T2>> : my_bool_true {};
-    //
+    struct is_pair<mycoolstl::pair<T1, T2>> : mycoolstl::my_bool_true {};
+
+
 
 } // namespace mycoolstl
 
